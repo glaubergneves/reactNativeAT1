@@ -1,4 +1,3 @@
-// ProductDetailsScreen.js
 import React from 'react';
 import { View, ScrollView, StyleSheet } from 'react-native';
 import TechnicalSpecifications from '../components/TechnicalSpecifications';

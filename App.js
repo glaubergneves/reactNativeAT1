@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import ProductListScreen from './src/screens/ProductListScreen';
-import ProductDetailsScreen from './src/screens/ProductDetailsScreen';
+import ProductDetailsTabs from './src/routes/ProductDetailsTabs';
 
 const Stack = createStackNavigator();
 
@@ -17,7 +17,7 @@ const App = () => {
         />
         <Stack.Screen
           name="ProductDetails"
-          component={ProductDetailsScreen}
+          component={ProductDetailsTabs}
           options={{ title: 'Detalhes do Produto' }}
         />
       </Stack.Navigator>

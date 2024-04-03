@@ -1,7 +1,7 @@
 [
     {
         "name": "Notebook Dell Inspiron 15",
-        "image": "notebook_dell_inspiron_15.jpg",
+        "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3520/pdp/laptop-inspiron-15-3520-pdp-gallery-504x350-bk.psd?fmt=png-alpha&wid=570&hei=400",
         "description": "Notebook de alto desempenho para uso profissional e entretenimento.",
         "technicalSpecifications": {
             "processor": "Intel Core i7 10ª geração",
@@ -41,7 +41,7 @@
     },
     {
         "name": "Monitor Gamer ASUS ROG Strix",
-        "image": "monitor_gamer_asus_rog_strix.jpg",
+        "image": "data:image/jpeg;base64,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",
         "description": "Monitor de alta performance para gamers profissionais.",
         "technicalSpecifications": {
             "screenSize": "27 polegadas",
@@ -75,7 +75,7 @@
     },
     {
         "name": "Mouse Logitech G Pro Wireless",
-        "image": "mouse_logitech_g_pro_wireless.jpg",
+        "image": "https://a-static.mlcdn.com.br/450x450/mouse-gamer-sem-fio-logitech-g-pro-x-superlight-usb-rosa-910-005955/inpower4/4196/b6d8b900f09ecdd6d93f72356ef30a93.jpeg",
         "description": "Mouse sem fio de alto desempenho para jogos competitivos.",
         "technicalSpecifications": {
             "sensor": "Hero 25K",
@@ -108,7 +108,7 @@
     },
     {
         "name": "Teclado Mecânico Corsair K95 RGB Platinum",
-        "image": "teclado_mecanico_corsair_k95_rgb_platinum.jpg",
+        "image": "https://cdn.awsli.com.br/600x700/2013/2013584/produto/126201460/2d862d1c7b.jpg",
         "description": "Teclado mecânico premium com iluminação RGB personalizável.",
         "technicalSpecifications": {
             "switches": "Cherry MX Speed",
@@ -141,7 +141,7 @@
     },
     {
         "name": "Headset HyperX Cloud II",
-        "image": "headset_hyperx_cloud_ii.jpg",
+        "image": "https://images.kabum.com.br/produtos/fotos/371599/headset-gamer-hyperx-cloud-ii-som-surround-7-1-drivers-53mm-usb-e-p3-white-pink-4p5e0aa_1659104859_original.jpg",
         "description": "Headset com som surround 7.1 para uma experiência imersiva de áudio.",
         "technicalSpecifications": {
             "transducerType": "Dinâmico de 53mm",
@@ -174,7 +174,7 @@
     },
     {
         "name": "Placa de Vídeo NVIDIA GeForce RTX 3080",
-        "image": "placa_de_video_nvidia_geforce_rtx_3080.jpg",
+        "image": "https://i.zst.com.br/thumbs/12/26/2d/-454173550.jpg",
         "description": "Placa de vídeo de última geração para gráficos de alta performance.",
         "technicalSpecifications": {
             "gpu": "NVIDIA Ampere",
@@ -207,7 +207,7 @@
     },
     {
         "name": "Roteador TP-Link Archer AX6000",
-        "image": "roteador_tp_link_archer_ax6000.jpg",
+        "image": "https://m.media-amazon.com/images/I/41fCGy44TRL._AC_.jpg",
         "description": "Roteador Wi-Fi 6 de alta velocidade para residências e escritórios.",
         "technicalSpecifications": {
             "wifiStandard": "Wi-Fi 6 (802.11ax)",
@@ -240,7 +240,7 @@
     },
     {
         "name": "SSD Kingston A2000 1TB",
-        "image": "ssd_kingston_a2000_1tb.jpg",
+        "image": "https://images-americanas.b2w.io/produtos/5306470005/imagens/hd-ssd-1tb-m-2-nvme-kingston-a2000/5306470056_1_large.jpg",
         "description": "SSD NVMe de alta velocidade para melhorar o desempenho do seu PC.",
         "technicalSpecifications": {
             "capacity": "1TB",
@@ -273,7 +273,7 @@
     },
     {
         "name": "Câmera Logitech C920 HD Pro",
-        "image": "camera_logitech_c920_hd_pro.jpg",
+        "image": "https://snpi.dell.com/snp/images/products/large/pt-br~AA542563/AA542563.jpg",
         "description": "Câmera web Full HD para videochamadas e streaming.",
         "technicalSpecifications": {
             "resolution": "1080p",
@@ -306,7 +306,7 @@
     },
     {
         "name": "Smartphone Samsung Galaxy S22 Ultra",
-        "image": "smartphone_samsung_galaxy_s22_ultra.jpg",
+        "image": "https://img.global.news.samsung.com/br/wp-content/uploads/2022/02/Galaxy_S22_Ultra_PR_main3.jpg",
         "description": "Smartphone premium com câmera avançada e desempenho excepcional.",
         "technicalSpecifications": {
             "display": "6.8 polegadas Dynamic AMOLED",
@@ -341,7 +341,7 @@
     },
     {
         "name": "Router Cisco Catalyst 9300 Series",
-        "image": "router_cisco_catalyst_9300_series.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgWFPX_q-C0w7MHJQ2RnDgp8A4ylA_OSHsHrcT75RfLQ&s",
         "description": "Roteador de alto desempenho para redes corporativas e data centers.",
         "technicalSpecifications": {
             "ports": "48 Gigabit Ethernet",
@@ -374,7 +374,7 @@
     },
     {
         "name": "Smart TV LG OLED C1 65 polegadas",
-        "image": "smart_tv_lg_oled_c1_65_polegadas.jpg",
+        "image": "https://i.zst.com.br/thumbs/12/20/c/1682161035.jpg",
         "description": "TV OLED 4K com qualidade de imagem incrível e recursos inteligentes.",
         "technicalSpecifications": {
             "displaySize": "65 polegadas",
@@ -408,7 +408,7 @@
     },
     {
         "name": "NVIDIA Jetson Nano Developer Kit",
-        "image": "nvidia_jetson_nano_developer_kit.jpg",
+        "image": "https://d29g4g2dyqv443.cloudfront.net/sites/default/files/akamai/embedded/images/jetsonNano/JetsonNano-DevKit_Front-Top_Right_trimmed.jpg",
         "description": "Plataforma de computação AI para aplicações embarcadas e de IoT.",
         "technicalSpecifications": {
             "gpu": "NVIDIA Maxwell",
@@ -442,7 +442,7 @@
     },
     {
         "name": "Antivírus Bitdefender Total Security 2024",
-        "image": "antivirus_bitdefender_total_security_2024.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6SzUWtc2UUSRZf39P8nvuWyOWCYIfhkVr_goaVuwC1A&s",
         "description": "Suite de segurança abrangente para proteger dispositivos contra ameaças online.",
         "technicalSpecifications": {
             "platforms": "Windows, macOS, Android, iOS",

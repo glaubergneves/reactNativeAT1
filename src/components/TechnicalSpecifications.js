@@ -4,7 +4,6 @@ import { View, Text, StyleSheet } from 'react-native';
 const TechnicalSpecifications = ({ specifications }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Especificações Técnicas</Text>
       {Object.entries(specifications).map(([key, value]) => (
         <View key={key} style={styles.specContainer}>
           <Text style={styles.specName}>{key}</Text>
@@ -18,11 +17,8 @@ const TechnicalSpecifications = ({ specifications }) => {
 const styles = StyleSheet.create({
   container: {
     marginBottom: 20,
-  },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    marginBottom: 10,
+    marginLeft: 15,
+    marginRight: 15
   },
   specContainer: {
     flexDirection: 'row',

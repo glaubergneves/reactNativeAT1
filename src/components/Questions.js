@@ -4,12 +4,12 @@ import { View, Text, StyleSheet } from 'react-native';
 const Questions = ({ questions }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Perguntas</Text>
       {questions.map((question, index) => (
         <View key={index} style={styles.questionContainer}>
-          <Text style={styles.userName}>{question.user}</Text>
+          <Text style={styles.userName}>{question.user} - {question.date}</Text>
           <Text>{question.question}</Text>
-          <Text>Resposta: {question.answer}</Text>
+          <Text style={styles.userName}>Resposta do vendendor: </Text>
+          <Text style={styles.answer}>{question.answer}</Text>
         </View>
       ))}
     </View>
@@ -19,11 +19,8 @@ const Questions = ({ questions }) => {
 const styles = StyleSheet.create({
   container: {
     marginBottom: 20,
-  },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    marginBottom: 10,
+    marginLeft: 15,
+    marginRight: 15
   },
   questionContainer: {
     marginBottom: 10,
@@ -32,6 +29,9 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 5,
   },
+  answer: {
+    marginLeft: 10
+  }
 });
 
 export default Questions;

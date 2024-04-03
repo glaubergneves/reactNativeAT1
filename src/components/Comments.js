@@ -4,12 +4,11 @@ import { View, Text, StyleSheet } from 'react-native';
 const Comments = ({ comments }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Comentários</Text>
       {comments.map((comment, index) => (
         <View key={index} style={styles.commentContainer}>
-          <Text style={styles.userName}>{comment.user}</Text>
+          <Text style={styles.userName}>{comment.user} - {comment.date}</Text>
           <Text>{comment.comment}</Text>
-          <Text>Nota: {comment.rating}</Text>
+          <Text style={styles.userName}>Nota: {comment.rating}</Text>
         </View>
       ))}
     </View>
@@ -19,11 +18,8 @@ const Comments = ({ comments }) => {
 const styles = StyleSheet.create({
   container: {
     marginBottom: 20,
-  },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    marginBottom: 10,
+    marginLeft: 15,
+    marginRight: 15
   },
   commentContainer: {
     marginBottom: 10,
